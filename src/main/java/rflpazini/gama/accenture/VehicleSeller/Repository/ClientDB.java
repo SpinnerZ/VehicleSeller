@@ -10,7 +10,7 @@ public enum ClientDB {
   private final Hashtable<String, Client> client;
 
   ClientDB() {
-    client = new Hashtable<>();
+    client = new Hashtable<String, Client>();
   }
 
   public Hashtable client() {
