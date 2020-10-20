@@ -6,12 +6,12 @@ public abstract class Employee {
 
   private String id;
   private String cpf;
-  private String nome;
+  private String name;
 
-  public Employee(String cpf, String nome) {
+  public Employee(String cpf, String name) {
     this.id = UUID.randomUUID().toString();
     this.cpf = cpf;
-    this.nome = nome;
+    this.name = name;
   }
 
   public String getId() {
@@ -30,12 +30,12 @@ public abstract class Employee {
     this.cpf = cpf;
   }
 
-  public String getNome() {
-    return nome;
+  public String getName() {
+    return name;
   }
 
-  public void setNome(String nome) {
-    this.nome = nome;
+  public void setName(String name) {
+    this.name = name;
   }
 
 
