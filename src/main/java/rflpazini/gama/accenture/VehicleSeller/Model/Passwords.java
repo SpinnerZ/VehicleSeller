@@ -7,7 +7,7 @@ import java.security.SecureRandom;
 import java.util.Hashtable;
 import rflpazini.gama.accenture.VehicleSeller.Repository.PasswordsDB;
 
-public class Passwords {
+public abstract class Passwords {
 
   private static Hashtable db = PasswordsDB.INSTANCE.passwords();
 

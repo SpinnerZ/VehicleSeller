@@ -7,7 +7,7 @@ import rflpazini.gama.accenture.VehicleSeller.Model.VehicleDisabilityPerson;
 import rflpazini.gama.accenture.VehicleSeller.Repository.VehicleDB;
 
 public abstract class PokeVehicle {
-  static Hashtable vehicleDB = VehicleDB.INSTANCE.vehicle();
+  private static Hashtable vehicleDB = VehicleDB.INSTANCE.vehicle();
 
   public static boolean createVehicle(int value, String color, String model, int year, boolean pcd) {
     Vehicle vehicle;

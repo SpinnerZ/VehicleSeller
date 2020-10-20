@@ -7,7 +7,7 @@ import rflpazini.gama.accenture.VehicleSeller.Repository.ClientDB;
 
 public abstract class PokeClient {
 
-  static Hashtable clientDB = ClientDB.INSTANCE.client();
+  private static Hashtable clientDB = ClientDB.INSTANCE.client();
 
   public static boolean createClient(String cpf, String name) {
     Client client = new Client(cpf, name);

@@ -4,7 +4,7 @@ import java.util.Hashtable;
 import rflpazini.gama.accenture.VehicleSeller.Repository.SalesDB;
 
 public class PokeSales {
-  static Hashtable salesDB = SalesDB.INSTANCE.sales();
+  private static Hashtable salesDB = SalesDB.INSTANCE.sales();
 
 
 }
