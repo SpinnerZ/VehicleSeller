@@ -78,4 +78,10 @@ public class Sales {
   public void setPortionPrice(double portionPrice) {
     this.portionPrice = portionPrice;
   }
+
+  public void show() {
+    System.out.printf("Total sale price: $%.2f\n"
+        + "Number of installments: %d\n"
+        + "Installments value: $%.2f", getPrice(), getPortionNumber(), getPortionPrice());
+  }
 }
