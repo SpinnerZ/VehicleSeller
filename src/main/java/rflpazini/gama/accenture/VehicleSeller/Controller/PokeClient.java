@@ -5,7 +5,7 @@ import java.util.Hashtable;
 import rflpazini.gama.accenture.VehicleSeller.Model.Client;
 import rflpazini.gama.accenture.VehicleSeller.Repository.ClientDB;
 
-public class PokeClient {
+public abstract class PokeClient {
 
   static Hashtable clientDB = ClientDB.INSTANCE.client();
 

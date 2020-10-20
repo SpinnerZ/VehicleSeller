@@ -8,7 +8,7 @@ import rflpazini.gama.accenture.VehicleSeller.Model.Manager;
 import rflpazini.gama.accenture.VehicleSeller.Model.SalesPerson;
 import rflpazini.gama.accenture.VehicleSeller.Repository.EmployeeDB;
 
-public class PokeEmployee {
+public abstract class PokeEmployee {
   static Hashtable employeeDB = EmployeeDB.INSTANCE.employee();
 
   public static boolean createEmployee(String cpf, String name, char type) {
