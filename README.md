@@ -8,9 +8,9 @@ O sistema deve cumprir os seguintes requisitos:
 - [X] Uma venda tem 15% de IPI. Sendo que se for uma venda de um veículo para deficientes, essa taxa é zerada.
 - [X] Se o cliente for financiar, devemos calcular o valor do carro, mais 1.89% de juros ao mês de acordo com o número de parcelas do financiamento.
 - [X] Se o carro for a vista, damos um desconto de 10% no valor total do carro.
-- [] Exibir o valor total do carro, o número de parcelas e o valor das mesmas.
-- [] (Bonus) É bacana fazer uma interação com o usuário permitindo que ele insira os inputs via terminal de nossa aplicação podemos fazer isso com o auxílio da classe Scanner do java.
-- [] Interest as constant on main;
-- [] RestAPI
+- [ ] Exibir o valor total do carro, o número de parcelas e o valor das mesmas.
+- [ ] (Bonus) É bacana fazer uma interação com o usuário permitindo que ele insira os inputs via terminal de nossa aplicação podemos fazer isso com o auxílio da classe Scanner do java.
+- [ ] Interest as constant on main;
+- [ ] RestAPI
 
 Utilizem todos os conhecimentos sobre orientação a objeto, vale também colocar implementações extras caso julguem necessárias…
