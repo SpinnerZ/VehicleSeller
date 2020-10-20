@@ -1,4 +1,4 @@
-Vamos criar um sistema de *venda de veículos*.
+Vamos criar um sistema de **venda de veículos**.
 
 O sistema deve cumprir os seguintes requisitos:
 
