@@ -4,6 +4,6 @@ public class SalesPerson extends Employee {
 
   public SalesPerson(String cpf, String name) {
     super(cpf, name);
-    setEmployeeType("Sales Person");
+    setPersonType("Sales Person");
   }
 }

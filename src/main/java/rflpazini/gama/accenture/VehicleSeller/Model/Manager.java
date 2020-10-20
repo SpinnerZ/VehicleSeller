@@ -5,7 +5,7 @@ public class Manager extends Employee {
 
   public Manager(String cpf, String name) {
     super(cpf, name);
-    setEmployeeType("Manager");
+    setPersonType("Manager");
   }
 
   public boolean storePassword(String password) {
